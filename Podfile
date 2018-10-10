@@ -6,7 +6,7 @@ target 'noyt' do
 pod 'RIBs'
 pod 'Firebase'
 pod 'Firebase/Analytics'
-pod 'SkeletonView'
+pod 'SkeletonView', '1.2'
 pod 'Crashlytics'
 
 end
