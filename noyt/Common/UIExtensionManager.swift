@@ -12,7 +12,7 @@ import UIKit
 // MARK:- extension UIView
 extension UIView {
     
-    func addCornerRadius(radius: CGFloat = 10.0, corners: UIRectCorner) {
+    func addCornerRadius(radius: CGFloat = 10.0, corners: UIRectCorner = [.allCorners]) {
         let rectShape = CAShapeLayer()
         rectShape.bounds = frame
         rectShape.position = center
