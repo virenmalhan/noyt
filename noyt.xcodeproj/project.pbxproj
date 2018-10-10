@@ -7,8 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1C2204F21623C0F000C67E3 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2204E21623C0F000C67E3 /* ListCollectionViewCell.swift */; };
+		F1C2205521624B98000C67E3 /* StoryboardHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2205421624B98000C67E3 /* StoryboardHandler.swift */; };
+		F1C2205921624BDF000C67E3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2205821624BDF000C67E3 /* NetworkManager.swift */; };
+		F1C2205B21624C0B000C67E3 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2205A21624C0B000C67E3 /* UserDefaultManager.swift */; };
+		F1C2205D21624C40000C67E3 /* APIKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2205C21624C40000C67E3 /* APIKeyManager.swift */; };
+		F1C2205F21624C79000C67E3 /* AppDelegateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2205E21624C79000C67E3 /* AppDelegateManager.swift */; };
+		F1C2206121624C9F000C67E3 /* NoytNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2206021624C9F000C67E3 /* NoytNavigationController.swift */; };
+		F1C2206321624CCA000C67E3 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2206221624CCA000C67E3 /* APIManager.swift */; };
+		F1C2206521624D30000C67E3 /* UIExtensionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2206421624D30000C67E3 /* UIExtensionManager.swift */; };
+		F1C2206721624D63000C67E3 /* SiriManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2206621624D63000C67E3 /* SiriManager.swift */; };
+		F1C2206B216254F9000C67E3 /* ReusableCellHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2206A216254F9000C67E3 /* ReusableCellHandler.swift */; };
+		F1C2206F216260C0000C67E3 /* UIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2206E216260C0000C67E3 /* UIUtil.swift */; };
 		F1DD3E83213D163200F4F4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD3E82213D163200F4F4CC /* AppDelegate.swift */; };
-		F1DD3E85213D163300F4F4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD3E84213D163300F4F4CC /* ViewController.swift */; };
+		F1DD3E85213D163300F4F4CC /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DD3E84213D163300F4F4CC /* ListViewController.swift */; };
 		F1DD3E88213D163300F4F4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DD3E86213D163300F4F4CC /* Main.storyboard */; };
 		F1DD3E8A213D163300F4F4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DD3E89213D163300F4F4CC /* Assets.xcassets */; };
 		F1DD3E8D213D163300F4F4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DD3E8B213D163300F4F4CC /* LaunchScreen.storyboard */; };
@@ -34,9 +46,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1C2204E21623C0F000C67E3 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		F1C2205421624B98000C67E3 /* StoryboardHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardHandler.swift; sourceTree = "<group>"; };
+		F1C2205821624BDF000C67E3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F1C2205A21624C0B000C67E3 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		F1C2205C21624C40000C67E3 /* APIKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeyManager.swift; sourceTree = "<group>"; };
+		F1C2205E21624C79000C67E3 /* AppDelegateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateManager.swift; sourceTree = "<group>"; };
+		F1C2206021624C9F000C67E3 /* NoytNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoytNavigationController.swift; sourceTree = "<group>"; };
+		F1C2206221624CCA000C67E3 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		F1C2206421624D30000C67E3 /* UIExtensionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensionManager.swift; sourceTree = "<group>"; };
+		F1C2206621624D63000C67E3 /* SiriManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriManager.swift; sourceTree = "<group>"; };
+		F1C2206A216254F9000C67E3 /* ReusableCellHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableCellHandler.swift; sourceTree = "<group>"; };
+		F1C2206E216260C0000C67E3 /* UIUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtil.swift; sourceTree = "<group>"; };
 		F1DD3E7F213D163200F4F4CC /* noyt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noyt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DD3E82213D163200F4F4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1DD3E84213D163300F4F4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1DD3E84213D163300F4F4CC /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		F1DD3E87213D163300F4F4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1DD3E89213D163300F4F4CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1DD3E8C213D163300F4F4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -74,6 +98,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1C2205021623C1C000C67E3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2205321624B55000C67E3 /* View */,
+				F1DD3E82213D163200F4F4CC /* AppDelegate.swift */,
+				F1C2205421624B98000C67E3 /* StoryboardHandler.swift */,
+				F1C2205E21624C79000C67E3 /* AppDelegateManager.swift */,
+				F1C2205821624BDF000C67E3 /* NetworkManager.swift */,
+				F1C2205A21624C0B000C67E3 /* UserDefaultManager.swift */,
+				F1C2205C21624C40000C67E3 /* APIKeyManager.swift */,
+				F1C2206021624C9F000C67E3 /* NoytNavigationController.swift */,
+				F1C2206221624CCA000C67E3 /* APIManager.swift */,
+				F1C2206421624D30000C67E3 /* UIExtensionManager.swift */,
+				F1C2206621624D63000C67E3 /* SiriManager.swift */,
+				F1C2206A216254F9000C67E3 /* ReusableCellHandler.swift */,
+				F1C2206E216260C0000C67E3 /* UIUtil.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F1C2205221623C6A000C67E3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD3E86213D163300F4F4CC /* Main.storyboard */,
+				F1DD3E8B213D163300F4F4CC /* LaunchScreen.storyboard */,
+				F1DD3E89213D163300F4F4CC /* Assets.xcassets */,
+				F1DD3E8E213D163300F4F4CC /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		F1C2205321624B55000C67E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2204E21623C0F000C67E3 /* ListCollectionViewCell.swift */,
+				F1DD3E84213D163300F4F4CC /* ListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F1DD3E76213D163200F4F4CC = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +161,8 @@
 		F1DD3E81213D163200F4F4CC /* noyt */ = {
 			isa = PBXGroup;
 			children = (
-				F1DD3E82213D163200F4F4CC /* AppDelegate.swift */,
-				F1DD3E84213D163300F4F4CC /* ViewController.swift */,
-				F1DD3E86213D163300F4F4CC /* Main.storyboard */,
-				F1DD3E89213D163300F4F4CC /* Assets.xcassets */,
-				F1DD3E8B213D163300F4F4CC /* LaunchScreen.storyboard */,
-				F1DD3E8E213D163300F4F4CC /* Info.plist */,
+				F1C2205221623C6A000C67E3 /* Resource */,
+				F1C2205021623C1C000C67E3 /* Common */,
 			);
 			path = noyt;
 			sourceTree = "<group>";
@@ -256,8 +316,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1DD3E85213D163300F4F4CC /* ViewController.swift in Sources */,
+				F1C2205921624BDF000C67E3 /* NetworkManager.swift in Sources */,
+				F1C2206521624D30000C67E3 /* UIExtensionManager.swift in Sources */,
+				F1C2204F21623C0F000C67E3 /* ListCollectionViewCell.swift in Sources */,
+				F1C2206B216254F9000C67E3 /* ReusableCellHandler.swift in Sources */,
+				F1C2205F21624C79000C67E3 /* AppDelegateManager.swift in Sources */,
+				F1C2206321624CCA000C67E3 /* APIManager.swift in Sources */,
+				F1DD3E85213D163300F4F4CC /* ListViewController.swift in Sources */,
+				F1C2205D21624C40000C67E3 /* APIKeyManager.swift in Sources */,
 				F1DD3E83213D163200F4F4CC /* AppDelegate.swift in Sources */,
+				F1C2205521624B98000C67E3 /* StoryboardHandler.swift in Sources */,
+				F1C2205B21624C0B000C67E3 /* UserDefaultManager.swift in Sources */,
+				F1C2206F216260C0000C67E3 /* UIUtil.swift in Sources */,
+				F1C2206721624D63000C67E3 /* SiriManager.swift in Sources */,
+				F1C2206121624C9F000C67E3 /* NoytNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,15 +502,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4C2G53M9JN;
-				INFOPLIST_FILE = noyt/Info.plist;
+				DEVELOPMENT_TEAM = 9DSXLW9T56;
+				INFOPLIST_FILE = noyt/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wecode.noyt;
+				PRODUCT_BUNDLE_IDENTIFIER = wecode.newsonyourtap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,15 +523,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4C2G53M9JN;
-				INFOPLIST_FILE = noyt/Info.plist;
+				DEVELOPMENT_TEAM = 9DSXLW9T56;
+				INFOPLIST_FILE = noyt/Resource/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = wecode.noyt;
+				PRODUCT_BUNDLE_IDENTIFIER = wecode.newsonyourtap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
