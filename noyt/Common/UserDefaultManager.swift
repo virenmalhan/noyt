@@ -17,7 +17,7 @@ enum UserDefaultKey: String {
     case dashboardData = "dashboardData"
 }
 
-struct NoytUserDefaultManager {
+struct UserDefaultManager {
     
     private static let appGroup = UserDefaults(suiteName: "group.com.noyt")
     private static let shared = UserDefaults.standard
@@ -25,18 +25,18 @@ struct NoytUserDefaultManager {
     static func set(value: Any?, key: String, userDefaultType: UserDefaultType = .shared) {
         switch userDefaultType {
         case .appGroup:
-            NoytUserDefaultManager.appGroup?.set(value, forKey: key)
+            UserDefaultManager.appGroup?.set(value, forKey: key)
         case .shared:
-            NoytUserDefaultManager.shared.set(value, forKey: key)
+            UserDefaultManager.shared.set(value, forKey: key)
         }
     }
 
     static func get(key: String, userDefaultType: UserDefaultType = .shared) -> Any? {
         switch userDefaultType {
         case .appGroup:
-            return NoytUserDefaultManager.appGroup?.value(forKey: key)
+            return UserDefaultManager.appGroup?.value(forKey: key)
         case .shared:
-            return NoytUserDefaultManager.shared.value(forKey: key)
+            return UserDefaultManager.shared.value(forKey: key)
         }
 
     }
