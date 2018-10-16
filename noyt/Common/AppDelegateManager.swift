@@ -7,11 +7,12 @@
 //
 
 import UIKit
+import Firebase
 
 struct AppDelegateManager {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) {
-        
+        FirebaseApp.configure()
     }
     
 }
